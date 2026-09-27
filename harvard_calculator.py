@@ -1,3 +1,4 @@
+# Lecture 0:
 # Get the user input
 #x = float(input("What's x? "))
 #y = float(input("What's y? "))

@@ -1,3 +1,4 @@
+# Lecture 0:
 # We can move our function down but if we do it. We need to have a main() func start(up).
 def main():
     # Output using our own function
