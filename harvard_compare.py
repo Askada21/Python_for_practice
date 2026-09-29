@@ -1,4 +1,4 @@
-# Lecture 1:
+# Lecture 1: (Conditionals)
 x = int(input("What is x? "))
 y = int(input("What is y? "))
 

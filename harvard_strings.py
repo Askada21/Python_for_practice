@@ -1,4 +1,4 @@
-# Lecture 0:
+# Lecture 0: (Function, Variables)
 # Ask the user for their name
 #name = input("What is your name? ")
 # Not creating a new line after first print statement 

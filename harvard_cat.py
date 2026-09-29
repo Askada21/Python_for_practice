@@ -1,4 +1,4 @@
-# Lecture: 2 (Loops)
+# Lecture 2: (Loops)
 # While Loop
 # i = 0
 # while i < 3:

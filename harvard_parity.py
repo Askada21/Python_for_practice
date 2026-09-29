@@ -1,4 +1,4 @@
-# Lecture 1:
+# Lecture 1: (Conditionals)
 def main():
     x = int(input("What is x? "))
 

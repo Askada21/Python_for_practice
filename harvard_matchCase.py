@@ -1,4 +1,4 @@
-# Lecture 1:
+# Lecture 1: (Conditionals)
 # Match Case is the same as in C language Switch Case
 name = input("What is your name? ")
 
