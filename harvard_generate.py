@@ -13,6 +13,6 @@
 # Random 3 choices
 import random
 cards = ["jack", "queen", "king"]
-random.shuffle(cards) # shuffles a list into a random order.
-for card in cards:
+random.shuffle(cards) # shuffles a list into a random order. changes the order of the existing list.
+for card in cards: # For each card inside cards, do something.
     print(card)
