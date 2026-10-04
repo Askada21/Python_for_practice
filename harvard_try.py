@@ -1,4 +1,4 @@
-# Lecture 3: (Exceptions)
+# Lecture 3: (Exceptions/TRY)
 # You use try when some code might cause an error.
 # "Try doing this; if it fails with an error, handle the error."
 #while True:
