@@ -1,9 +1,14 @@
 # Lecture 5: (Unit Test)
+from harvard_calculator import square 
+
 def main():
-    x = int(input("What's x? "))
-    print("x squared is", square(x))
+    test_square()
 
-def square(n):
-    return n * n
+def test_square():
+    if square(2) != 4:
+        print("2 squared was not 4")
+    if square(3) != 9:
+        print("3 squared was not 9")
 
-main()
+if __name__ == "__main__":
+    main()
