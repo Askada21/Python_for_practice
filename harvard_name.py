@@ -15,7 +15,17 @@ file.write(f"{name}\n")
 file.close()
 
 # With - allows you to automate the closing of a file.
-name = input("Whats your name? ")
+#name = input("Whats your name? ")
+# [] — square brackets: Create a list
+# {} — curly braces: Create a dictionary
+names = []
 
-with open("names.txt", "a") as file:
-    file.write(f"{name}\n")
+with open("names.txt", "r") as file:
+    for line in file:
+        names.append(line.rstrip)
+
+for name in sorted(names): # sorted() - puts items in order and returns a new list, leaving the original unchanged. It also sorts words alphabetically.
+                                      # numbers = [3, 1, 2]
+                                      # print(sorted(numbers)) ->  [1, 2, 3]
+                                      # print(numbers) ->  [3, 1, 2]
+    print(f"hello, ", {name})
