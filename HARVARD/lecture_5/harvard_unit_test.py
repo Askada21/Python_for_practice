@@ -14,7 +14,7 @@
 
 import pytest
 
-from harvard_calculator import square
+from HARVARD.lecture_0.harvard_calculator import square
 
 
 def test_positive():
