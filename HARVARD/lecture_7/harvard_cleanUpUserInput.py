@@ -1,3 +1,4 @@
+# Lecture 7: (Regular Expressions | Clean Up User Input)
 import re
 
 name = input("What's your name? ").strip()
