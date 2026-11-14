@@ -1,0 +1,23 @@
+What is Pandas?
+Pandas is Python's most popular library for data analysis and manipulation
+- Built on top of NumPy
+- Provides easy-to-use data structures
+- Essential for data science workflows
+- Used by millions of data professionals
+"Pandas makes working with data feel natural and intuitive"
+
+Why Learn Pandas?
+- Industry Standard - Used in data science, finance, research, and more
+- Powerful - Handle datasets with millions of rows
+- Versatile - Read/write Excel, CSV, SQL, JSON, and more
+- Fast - Optimized C code under the hood
+- Open Source - Free and constantly improving
+
+Core Data Structures
+DataFrame - The main workhorse
+- 2D table with rows and columns
+- Like an Excel spreadsheet, but programmable
+- Each column can have diﬀerent data types
+Series - A single column
+- 1D array with labels
+- Think of it as one column from a DataFrame
