@@ -21,3 +21,13 @@ DataFrame - The main workhorse
 Series - A single column
 - 1D array with labels
 - Think of it as one column from a DataFrame
+
+Common Pandas workflow:
+Load → Filter → Group → Visualize
+
+What each step does
+Step	Purpose
+- Load	     Read your CSV file into Pandas
+- Filter	 Keep only sessions longer than 2 hours
+- Group	     Calculate total study hours for each subject
+- Visualize	 Display the results as a bar chart
