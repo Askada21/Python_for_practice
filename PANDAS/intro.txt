@@ -31,3 +31,16 @@ Step	Purpose
 - Filter	 Keep only sessions longer than 2 hours
 - Group	     Calculate total study hours for each subject
 - Visualize	 Display the results as a bar chart
+
+Functions:
+df.shape - возвращает два значения: количество строк и количество столбцов.
+df.info() - проверить типы данных каждой колонки.
+df.describe() - изучить основные статистические показатели числовых данных.(min, max, std...)
+df.isnull()— проверяет, отсутствует ли значение.
+df.duplicated() - duplicate
+df.nunique() - Подсчитываем количество уникальных значений в каждом столбце.
+pd.to_datetime() - преобразовывает текст в специальный тип данных для работы с датами.
+
+np.ceil() -	Округляет число вверх
+.clip(lower=0) - Заменяет отрицательные значения на 0
+.astype(int) -	Преобразовывает значения в целые числа
