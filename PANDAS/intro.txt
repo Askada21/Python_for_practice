@@ -44,3 +44,6 @@ pd.to_datetime() - преобразовывает текст в специаль
 np.ceil() -	Округляет число вверх
 .clip(lower=0) - Заменяет отрицательные значения на 0
 .astype(int) -	Преобразовывает значения в целые числа
+
+fetchall() — takes all the rows from the SQL query result and passes them to Python. (Get all remaining result rows)
+fetchone() - Get one next result row
